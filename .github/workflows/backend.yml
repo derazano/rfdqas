@@ -20,6 +20,6 @@ jobs:
       
     - name: Run gradle test
       run: |
-        cd backend
+        cd server
         chmod +x ./gradlew
-        ./gradlew test
+        ./gradlew bootrun
